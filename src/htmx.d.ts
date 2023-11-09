@@ -317,6 +317,11 @@ export interface HtmxConfig {
      */
     defaultSwapStyle?: "innerHTML" | string;
     /**
+     * Whether or not to use the View Transition API when swapping in new content.
+     * @default false
+     */
+    globalViewTransitions?: boolean;
+    /**
      * The number of pages to keep in **localStorage** for history support.
      * @default 10
      */
